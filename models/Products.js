@@ -9,6 +9,10 @@ const ProductSchema = Schema({
     type: Number,
     require: true
   },
+  seller: {
+    type: name,
+    require: true
+  },
   date: {
     type: Date,
     default: Date.now

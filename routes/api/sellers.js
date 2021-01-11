@@ -4,9 +4,9 @@ const router = express.Router();
 const Catalog = require("../../models/Catalogs");
 const Order = require("../../models/Orders");
 
-router.get("/", (req, res) => {
-  res.json({ msg: "Running" });
-});
+// router.get("/", (req, res) => {
+//   res.json({ msg: "Running" });
+// });
 
 router.post("/create-catalog", async (req, res) => {
   const newCatalog = new Catalog({

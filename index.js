@@ -9,6 +9,7 @@ const connect = require("./config/connect");
 const buyer = require("./routes/api/buyers");
 const seller = require("./routes/api/sellers");
 const auth = require("./routes/api/users");
+
 connect();
 
 const app = express();
