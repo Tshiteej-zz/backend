@@ -3,10 +3,15 @@ const Schema = mongoose.Schema;
 
 const OrderSchema = Schema({
   buyer: {
-    type: String
+    type: String,
+    require: true
   },
   products: {
     type: [String],
+    require: true
+  },
+  seller: {
+    type: String,
     require: true
   },
   date: {
